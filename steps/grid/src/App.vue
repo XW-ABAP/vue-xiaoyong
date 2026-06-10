@@ -2,12 +2,12 @@
 import DemoGrid from './components/Grid.vue'
 import { ref } from 'vue'
 const searchQuery = ref('')
-const gridColumns = ['name', 'power']
+const gridColumns = ['name', 'power', 'action']
 const gridData = [
-  { name: 'Chuck Norris', power: Infinity },
-  { name: 'Bruce Lee', power: 9000 },
-  { name: 'Jackie Chan', power: 7000 },
-  { name: 'Jet Li', power: 8000 }
+  { name: 'Chuck Norris', power: Infinity, action: 'Punch' },
+  { name: 'Bruce Lee', power: 9000, action: 'Kick' },
+  { name: 'Jackie Chan', power: 7000, action: 'Flip' },
+  { name: 'Jet Li', power: 8000, action: 'Spin' }
 ]
 
 </script>
