@@ -1,5 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import DemoGrid from './components/Grid.vue'
 import { ref } from 'vue'
 const searchQuery = ref('')
 const gridColumns = ['name', 'power']
